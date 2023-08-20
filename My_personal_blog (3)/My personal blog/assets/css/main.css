@@ -1,0 +1,100 @@
+@import url(navbar.css);
+@import url(my_personal_blog.css );
+@import url(blog_post.css );
+@import url(footer.css);
+
+
+
+  
+@media (max-width: 490px) {
+
+    .nav-icons{
+        display: none;
+    }
+    
+    .container {
+        grid-template-columns: 1fr ; 
+        grid-template-areas: 
+          "hd"
+          "con"
+          "ft";
+      }
+
+      .containerHome {
+        grid-template-columns: 1fr ; 
+        grid-template-areas: 
+          "hd"
+          "con"
+          "ft";
+      }
+
+      .blogs{
+        width:250px;
+      }
+    
+      .blog-card{
+      width: 250px;
+      }
+
+      .image{
+        width: 250px;
+        
+      }
+    
+      .image img{
+        width: 250px;
+      }
+
+    .blog-content{
+      width: 230px;
+    }
+
+    .nav-items li {
+        margin-right: 50px;
+      }
+
+      .nav-items ul { 
+        margin-left: 20px;
+      }
+      .navbar{
+        width: 300;
+      }
+
+      .sidebar{
+        display: none;
+      }
+        
+      .content {
+        padding-left: 5px;
+      }
+      
+      .sidebar {
+        padding-left: 5px;
+      }
+    
+      .headerInfo{
+        margin-left: 10px;
+      }
+      
+    .avatar{
+    margin-left: 20px;
+    width: 60px;
+    }
+
+    .avatar img{
+    width: 60px;
+    }
+    
+    .sidebar ul li {
+      padding: 10px;
+    }
+    
+    .content img{
+      width: 100px;
+      height: 100px;
+    }
+
+    .bio{
+      display: none;
+    }
+    }
